@@ -6,8 +6,12 @@ end
 
 maru = Cat.new
 
-def maru.meow
+class Cats
+
+  def maru.meow
   puts "meow!"
+end
+
 end
 
 maru.meow
