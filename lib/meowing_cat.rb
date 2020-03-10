@@ -1,11 +1,13 @@
-class  Cat
+class   = Struct.new(:attr_names) do
 
-  attr_accessor :name
-  attr_accessor :meow
-
-  def method_name
+  def maru.meow
     puts "meow!"
   end
+
+  attr_accessor :name
+
+
+
 end
 
 maru = Cat.new
