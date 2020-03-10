@@ -11,4 +11,3 @@ def maru.meow
 end
 
 maru.meow
-
